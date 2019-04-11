@@ -12,7 +12,9 @@ import (
 
 	"golang.org/x/net/websocket"
 )
-
+//Nota: para este ejemplo este viene siendo lo que es el cliente para poder conectar a nuestro servidor una vez que este funcionando 
+//1.- Dejar ejecutando el servidor 
+//2.- Ejecutar varios clientes para poder interactuar en los mensajes
 //Message :
 type Message struct {
 	Text string `json:"text"`
