@@ -14,7 +14,7 @@ type Message struct {
 	Text string `json:"text"`
 }
 
-//Strcut que con las funciones que se ocupan en el servidor
+//Struct con las funciones que se ocupan en el servidor
 type hub struct {
 	clients          map[string]*websocket.Conn
 	addClientChan    chan *websocket.Conn
